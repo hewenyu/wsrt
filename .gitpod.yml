@@ -1,10 +1,6 @@
 image:
     file: .gitpod.Dockerfile
 
-tasks:
-    - init: dep ensure
-
 vscode:
     extensions:
         - golang.go
-        - premparihar.gotestexplorer
